@@ -1,0 +1,35 @@
+ @media only screen and (min-width:320px) and (max-width:594px) {
+    h2.slide-title {
+        text-align: center;
+        line-height: 30px;
+        font-size: 2em !important;
+    }
+
+    h4.explore {
+        font-size: 20px !important;
+        line-height: 40px;
+    }
+
+    h3.column-title,
+    h2.column-title,
+    h2.section-title {
+        font-size: 20px !important;
+        line-height: 18px;
+    }
+
+    h3.call-to-action-title {
+        font-size: 19px !important;
+        line-height: 25px;
+    }
+
+    h3.service-title-e, .service-title-l {
+      font-size: 19px;
+    }
+  }
+
+ @media only screen and (min-width:593px) and (max-width:773px) {
+    h2.slide-title {
+        text-align: center;
+        line-height: 60px;
+    }
+ }

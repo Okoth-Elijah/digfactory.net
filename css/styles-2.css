@@ -1,0 +1,312 @@
+.website-bg {
+  background: transparent;
+  border: 2px solid gray;
+  width: 9em;
+  height: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  margin-bottom: 50px;
+}
+
+.dig-logo-y {
+  transition: box-shadow 0.5s ease-in;
+  border-radius: 5px;
+}
+
+.dig-logo-y:hover { 
+  box-shadow: -5px 3px 10px #888888;
+}
+
+.email-icon {
+  font-size: 3rem;
+  color: #f08c56;
+  display: flex;
+  align-items: center;
+}
+
+.inner-content {
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  width: 49%;
+  height: 13em;
+  transition: box-shadow 0.5s ease-in;
+}
+
+.inner-content:hover {
+  box-shadow: -3px 0 10px #888888;
+}
+
+.free-qoute {
+  box-shadow: 0 0 2px #888888;
+
+  .form-group {
+    width: 49%;
+
+    input {
+      border: 2px solid #007bff;
+      height: 50px;
+      border-radius: 2px;
+    }
+
+    input:focus {
+      border-color: #0056b3;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+      opacity: 0.6;
+    }
+
+    input::placeholder {
+      color: rgba(0, 0, 0, 0.5);
+      opacity: 0.6;
+    }
+  }
+}
+
+.any-question {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid lightgray;
+  height: 23em;
+  border-radius: 3px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+
+  .qa-img {
+    border: 2px solid lightgray;
+    width: 5em;
+    height: 5em;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  h3 {
+    color: white;
+    font-weight: bold;
+  }
+
+  p {
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: -0.2px;
+  }
+}
+
+.any-question::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.any-question * {
+  position: relative;
+  z-index: 2;
+}
+
+.internship {
+  position: relative;
+}
+
+.internship::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.internship * {
+  position: relative;
+  z-index: 2;
+}
+
+.web-hosting {
+  position: relative;
+}
+
+.web-hosting::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.web-hosting * {
+  position: relative;
+  z-index: 2;
+}
+
+.soft-ware {
+  position: relative;
+}
+
+.soft-ware::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.soft-ware * {
+  position: relative;
+  z-index: 2;
+}
+
+.banner-area {
+  position: relative;
+}
+
+.banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.brochure {
+  border: 2px solid rgb(190, 190, 190);
+  background: lightgrey;
+  border-radius: 4px;
+  transition: box-shadow 0.5s ease-in, background 0.5s ease-in;
+}
+
+div.brochure:hover {
+  box-shadow: -3px 0 10px rgba(128, 128, 128, 0.2);
+  background: #f08c56;
+}
+
+.imge-info-3 {
+  position: relative;
+}
+
+div.imge-info-3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.imge-info-3 * {
+  position: relative;
+  z-index: 2;
+}
+
+.banner-1 {
+  position: relative;
+}
+
+.banner-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.banner-1 * {
+  z-index: 2;
+}
+
+/* From Uiverse.io by abuayaan01 */
+.button-1 {
+  background-color: #000;
+  border: 0px;
+  outline: 0px;
+  color: #fff;
+  width: 200px;
+  padding: 20px;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.liquid {
+  background-color: #b1b1b1;
+  width: 200px;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-shadow: inset 5px -5px 25px #104e81, inset -5px 0px 25px #104e81;
+}
+
+.liquid::after {
+  content: "";
+  width: 450px;
+  height: 400px;
+  background: #000;
+  z-index: 1;
+  position: absolute;
+  left: -110px;
+  top: -380px;
+  border-radius: 45%;
+  animation: animate 5s linear 2s infinite;
+}
+
+.liquid::before {
+  content: "";
+  width: 450px;
+  height: 400px;
+  background-color: rgb(68, 160, 235);
+  z-index: 1;
+  position: absolute;
+  left: -110px;
+  top: -380px;
+  border-radius: 40%;
+  animation: animate 5s linear 1.8s infinite;
+}
+
+.btn-txt {
+  position: relative;
+  z-index: 2;
+  font-size: 22px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+
+@keyframes animate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* form.login-form {
+  border: 2px solid red;
+} */
